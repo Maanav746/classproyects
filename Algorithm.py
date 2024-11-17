@@ -20,5 +20,5 @@ user_db = {
     "guest": "guest123",
     "charlie_brown": "peanuts2023"
 }
-print(check_user_password("new_user", "securepass", user_db))
-print(check_user_password("john_doe", "newpass", user_db))
+check_user_password("new_user", "securepass", user_db)
+check_user_password("john_doe", "newpass", user_db)
